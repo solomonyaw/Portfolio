@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" opacity="0.35">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <!-- Distant buildings & Tema harbour lighthouse / tower -->
+  <g fill="url(#skyGrad)">
+    <!-- Tower / Memorial landmark -->
+    <rect x="520" y="80" width="22" height="260" rx="3"/>
+    <polygon points="515,80 547,80 531,30"/>
+    <rect x="527" y="15" width="8" height="20"/>
+    <!-- Buildings -->
+    <rect x="380" y="160" width="70" height="180" rx="2"/>
+    <rect x="460" y="190" width="50" height="150" rx="2"/>
+    <rect x="330" y="210" width="45" height="130" rx="2"/>
+    <rect x="260" y="240" width="60" height="100" rx="2"/>
+    <rect x="180" y="270" width="70" height="70" rx="2"/>
+    <!-- Harbor crane silhouettes -->
+    <line x1="120" y1="340" x2="150" y2="280" stroke="#0284c7" stroke-width="3" opacity="0.4"/>
+    <line x1="150" y1="280" x2="210" y2="280" stroke="#0284c7" stroke-width="2" opacity="0.4"/>
+  </g>
+</svg>

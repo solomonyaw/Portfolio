@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <defs>
+    <linearGradient id="sonicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <!-- Background Card -->
+  <rect width="320" height="100" rx="16" fill="#081e3a" />
+  <rect x="1" y="1" width="318" height="98" rx="15" fill="none" stroke="#1e3a5f" stroke-width="1.5" />
+
+  <!-- Sonic AI Icon: Hexagon with waves -->
+  <g transform="translate(24, 20)">
+    <polygon points="30,2 56,16 56,44 30,58 4,44 4,16" fill="url(#sonicGrad)" />
+    <!-- Sound/AI Wave lines inside -->
+    <path d="M16 30 L22 22 L26 38 L30 16 L34 42 L38 24 L44 30" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Sonic AI Text -->
+  <g transform="translate(94, 60)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Sonic <tspan fill="#c084fc">AI</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" width="240" height="180">
+  <g fill="#0284c7" opacity="0.25">
+    <!-- Palm tree trunk -->
+    <path d="M40 180 Q55 120 70 80 Q65 120 50 180 Z"/>
+    <!-- Palm leaves -->
+    <path d="M70 80 Q40 60 10 75 Q45 80 70 80 Z"/>
+    <path d="M70 80 Q50 40 25 35 Q55 55 70 80 Z"/>
+    <path d="M70 80 Q70 20 60 10 Q75 40 70 80 Z"/>
+    <path d="M70 80 Q90 30 110 20 Q95 50 70 80 Z"/>
+    <path d="M70 80 Q105 55 130 50 Q100 70 70 80 Z"/>
+    <path d="M70 80 Q110 85 135 95 Q100 95 70 80 Z"/>
+    
+    <!-- Smaller second palm tree -->
+    <path d="M85 180 Q95 135 105 105 Q100 135 90 180 Z"/>
+    <path d="M105 105 Q85 85 65 95 Q90 105 105 105 Z"/>
+    <path d="M105 105 Q95 70 80 60 Q100 85 105 105 Z"/>
+    <path d="M105 105 Q120 65 135 60 Q120 85 105 105 Z"/>
+    <path d="M105 105 Q135 90 150 95 Q125 105 105 105 Z"/>
+  </g>
+</svg>
