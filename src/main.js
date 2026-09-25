@@ -17,25 +17,25 @@ const projects = [
     logos: [
       {
         name: "Jetup",
-        src: "/assets/images/jetup-logo.svg",
-        fallback: "/assets/images/jetup-logo.png"
+        src: "./jetup.png",
+        fallback: "./assets/images/jetup-logo.svg"
       },
       {
         name: "TAG Markets",
-        src: "/assets/images/tag-markets-logo.svg",
-        fallback: "/assets/images/tag-markets-logo.png"
+        src: "./tag.png",
+        fallback: "./assets/images/tag-markets-logo.svg"
       },
       {
         name: "Sonic AI",
-        src: "/assets/images/sonic-ai-logo.svg",
-        fallback: "/assets/images/sonic-ai-logo.png"
+        src: "./sonic.png",
+        fallback: "./assets/images/sonic-ai-logo.svg"
       }
     ],
     description: "I am a verified partner of Jetup where we promote copy trading among people with little or no experience in forex trading. Experienced traders can also take advantage. Jetup utilizes a ten-level deep multi-level marketing network structure for its compensation plan. If you want a pathway to financial freedom then Jetup is that solution.",
     disclaimer: "Risk Disclaimer: Copy trading and forex trading involve financial risk. Past performance does not guarantee future results. Please conduct your own research and understand the risks before participating.",
     website: "https://www.jetup.website/",
     displayUrl: "www.jetup.website",
-    flyer: "/assets/images/jetup-flyer.jpg",
+    flyer: "./jetup-flyer.png",
     flyerAlt: "Jetup Copy Trading Promotional Flyer - Trade Smarter Not Harder"
   }
 ];
@@ -263,11 +263,12 @@ function showToast(message) {
 window.copyToClipboard = copyToClipboard;
 
 // ==========================================
-// 5. DOM INITIALIZATION & EVENT LISTENERS
-// ==========================================
 document.addEventListener("DOMContentLoaded", () => {
-  // Render projects
-  renderProjects(projects);
+  // Only dynamically render projects if container is empty (preserves HTML structure)
+  const projectsContainer = document.getElementById("projects-container");
+  if (projectsContainer && projectsContainer.children.length === 0) {
+    renderProjects(projects);
+  }
 
   // Header scroll state
   const header = document.querySelector(".site-header");
